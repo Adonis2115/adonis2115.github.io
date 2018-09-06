@@ -190,7 +190,7 @@ button{
     top: 0;
     left: 0;
     z-index: 9999;
-    background: #fff;
+    background: #fbfbfb;
     height: 100%;
     width: 100%;
     -webkit-transition: all .5s .5s ease;
@@ -1272,10 +1272,15 @@ ul.nav > li.active > a{
     background-size: 100% 100%;
     position: relative;
     height: 307px;
-    z-index: -1;   
+    z-index: 1;   
 }
 .text-white{
-    color:#fff;
+    color:#fff!important;
+}
+.doc_content h3.heading3{
+    font-size: 24px;
+    color: #fff;
+    padding-top: 40px;
 }
 blockquote{
     border-left: none;
@@ -1512,6 +1517,15 @@ hr {
 }
 .navbar-header .brand img{
     width:140px;
+}
+.mining-pool {
+    background-image: url(../img/crypto-bannerback.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+    height: 307px;
+    z-index: 0;
 }
 @media (max-width:768px){
  .navbar-header .nav-btn {
