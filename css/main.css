@@ -359,7 +359,7 @@ ul.nav{}
 ul.nav > li{}
 ul.nav > li > a{
     color: #f8f8f8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Regular';
     display: inline-block;
     vertical-align: middle;
     padding: 0 10px;
@@ -374,7 +374,7 @@ ul.nav > li > a:hover,
 ul.nav > li > a:focus,
 ul.nav > li.active > a{
     background: none;
-    color: #fff;
+    color: #00a9ee;
 }
 
 
@@ -1282,6 +1282,12 @@ ul.nav > li.active > a{
     color: #fff;
     padding-top: 40px;
 }
+.extra{
+    background-color: #eee;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; 
+}
 blockquote{
     border-left: none;
     margin: 0;   
@@ -1526,6 +1532,13 @@ hr {
     position: relative;
     height: 307px;
     z-index: 0;
+}
+form{
+    padding:20px;
+}
+.col-border {
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
 }
 @media (max-width:768px){
  .navbar-header .nav-btn {
