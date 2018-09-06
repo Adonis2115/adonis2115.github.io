@@ -15,7 +15,7 @@ body{
     font-family: 'OpenSans-Regular';
     font-size: 16px;
     line-height: 23px;
-    color: #777;
+    color: #232323;
     font-weight: 400;
     position: relative;
     overflow-x: hidden;
@@ -39,7 +39,8 @@ h2{
     margin: 0 0 10px;
     font-weight: 700;
     line-height: 1;
-    letter-spacing: -0.06em;
+    /*letter-spacing: -0.06em;*/
+    letter-spacing: 1px;
 }
 h3,h4{
     margin: 0 0 10px;
@@ -50,7 +51,7 @@ h3,h4{
     letter-spacing: -0.03em;
 }
 h3{
-    font-size: 17px;
+    font-size: 16px;
 }
 h4{
     font-size: 18px;
@@ -1029,11 +1030,11 @@ ul.nav > li.active > a{
     padding: 0 10px;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
+    /*font-weight: 700;*/
+    font-size: 14px;
 }
 .footer_menu li a:hover{
-    text-decoration: underline;
+    color: #00a9ee;
 }
 .footer_contact{
     text-align: center;
@@ -1090,6 +1091,7 @@ ul.nav > li.active > a{
 
 .doc_content h3{
     color:#0c3484;
+    font-size:24px;
 }
 .doc_content p{
     color:#0c3484;
@@ -1227,9 +1229,10 @@ ul.nav > li.active > a{
     color: #0c3484;
     text-transform: none;
     letter-spacing: -0.03em;
+    font-size:28px;
 }
 .heading-2{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
     color: #0c3484;
 }
@@ -1255,11 +1258,12 @@ ul.nav > li.active > a{
     margin: 10px 0 5px;
     text-transform: capitalize;
     color:#59d2fc;
+    letter-spacing: 0.1rem;
 }
 .comman_items .comman_item p{
     margin: 0;
     color:#ffffff;
-    font-size:14px;
+    font-size:13px;
 }
 .comman-section2{
     background-image: url("../img/bg3.png");
@@ -1295,11 +1299,13 @@ blockquote .name{
     text-align: center;
     color: #434343;
     text-transform: none;
+    font-size: 16px;
 }
 blockquote .designation{
     text-align: center;
     color: #000000;
     text-transform: none;
+    font-size: 16px;
 }
 .icons-preview {
     list-style-type: none;
@@ -1324,6 +1330,7 @@ blockquote .designation{
 .post_content p.blog-heading{
     color: #0c3484;
     font-weight: bold;
+    font-size: 18px;
 }
 .btn2{
     background: linear-gradient(135deg, #5382d3 0%,#4dc2e5 100%);
@@ -1376,7 +1383,7 @@ blockquote .designation{
 }
 p.title{
     display: block;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 10px;
     color: #0c3484;
     font-weight: bold;
@@ -1499,6 +1506,9 @@ hr {
 }
 .border-right{
     border-right: 2px solid #0c3484;
+}
+.fontsize-28{
+    font-size: 28px;
 }
 .navbar-header .brand img{
     width:140px;
