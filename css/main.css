@@ -1138,7 +1138,7 @@ ul.nav > li.active > a{
     color:#fff;
 }
 .blockchain-banner {
-    background-image: url("../img/blockchain-bannerback.png");
+    /*background-image: url("../img/blockchain-bannerback.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1146,7 +1146,16 @@ ul.nav > li.active > a{
     position: relative;
     height: 300px;
     z-index: 1;
-    background-color: #191a2f;
+    background-color: #191a2f;*/
+    background-image: url(../img/ico-bannerback.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    background-color: #002d5d;
 }
 .blockchain_moc{
     background-image: url(../img/blockchain-bannerside.png);
@@ -1263,7 +1272,8 @@ ul.nav > li.active > a{
 .comman_items .comman_item p{
     margin: 0;
     color:#ffffff;
-    font-size:13px;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 .comman-section2{
     background-image: url("../img/bg3.png");
@@ -1321,6 +1331,7 @@ blockquote .designation{
 .icons-preview {
     list-style-type: none;
     padding-left: 0;
+    display: flex;
 }
 .icons-preview li {
   float:left;
@@ -1330,6 +1341,12 @@ blockquote .designation{
   padding-bottom:20px;
   margin:5px;
   background:#fff;
+}
+.icons-preview li img.img-size1 {
+    width: 50%;
+}
+.icons-preview li img.img-size2 {
+    width: 50%;
 }
 .icons-preview li small {
     display: block;
@@ -1414,7 +1431,7 @@ p.title{
     background: #0c3484;
     height: 360px;
 }   
-.person-img {
+.erc-img {
     position: absolute;
     top: -2em;
     left: 50%;
@@ -1530,7 +1547,7 @@ hr {
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     position: relative;
-    height: 307px;
+    /*height: 307px;*/
     z-index: 0;
 }
 form{
@@ -1548,5 +1565,26 @@ form{
 .navbar-header .brand img{
     width:100px;
 }   
+}
+@media (max-width:500px){
+    .icons-preview {
+    list-style-type: none;
+    padding-left: 0;
+    display: block;
+    }
+    .icons-preview li {
+    width:100%;
+    }
+    .icons-preview li img.img-size1 {
+    width: 100px;
+    }
+    .icons-preview li img.img-size2 {
+    width: 100px;
+    }
+}
+@media (min-width: 991px) {
+    .hidden-lg {
+        display: none!important;
+    }
 }
 /*extra css end*/

@@ -60,11 +60,47 @@
 @media all and (max-width: 767px) {
     body{ overflow-x: visible; }
     body, p{
-        font-size: 12px;
+        font-size: 15px;
         line-height: 22px;
     }
     h1{
         font-size: 30px;
+    }
+    .ico_content h1 {
+        font-size: 30px;
+    }
+    .heading-1{
+        font-size:22px;
+    }
+    .heading-2{
+        font-size:15px;
+    }
+    .comman_item {
+        padding: 0px 0px;
+    }
+    .xs-pt-0 {
+        padding-top: 0px;
+    }
+    .xs-pb-40{
+        padding-bottom: 40px;
+    }
+    .erc_content p.erc-heading {
+        font-size: 30px;
+    }
+    .erc-img{
+        top:-1em;
+    }
+    .crypto_content h1 {
+        font-size: 30px;
+    }
+    .service_content h1 {
+        font-size: 30px;
+    }
+    .home_section{
+        height: 410px;
+    }
+    .border-right {
+        border-right: 0px solid #0c3484;
     }
     h2{
         font-size: 20px;
@@ -142,6 +178,24 @@
     .copyright,
     .footer_menu{
         text-align: center;
+    }
+    .pr-100 {
+    padding-right: 40PX;
+    }
+    .pl-100 {
+    padding-left: 40PX;
+    }
+    .promo_section .section_heading h2{
+        font-size: 22px;
+    }
+    .align-center {
+     text-align: inherit; 
+    }
+    .pb-80 {
+    padding-bottom: 0px;
+    }
+    .mb-40 {
+    margin-bottom: 0px;
     }
 }
 /* ---- End of max-width 767px CSS ---- */
