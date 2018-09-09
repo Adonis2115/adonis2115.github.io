@@ -163,7 +163,7 @@
     ul.nav > li > a:hover,
     ul.nav > li.active > a {
         background-color: transparent;
-        color: #f77030;
+        color: #00a9ee;
     }
     .hero_section{
         height: 400px;
