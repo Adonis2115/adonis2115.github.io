@@ -14,7 +14,7 @@
 @media (max-width: 992px) {
     .sm-padding{ padding: 15px; }
     ul.nav > li > a {
-        font-size: 10px;
+        font-size: 16px;
         padding: 0 5px;
     }
     h1{
@@ -45,13 +45,24 @@
         font-size: 12px;
         line-height: 18px;
     }
+    .service-explain h2 {
+    text-align: left;
+    }
+    .xs-textright{
+        text-align: right;
+    }
 }
 /* ---- End of max-width 992px CSS ---- */
 
 
 /* ---- Start of min-width 480px and max-width 768px CSS ---- */
-@media all and (min-width: 480px) and (max-width: 768px) {
-	
+@media all and (min-width: 768px) and (max-width: 992px) {
+	.sm-hidden{
+    display: none;
+    }
+    .sm-show{
+    display: block;
+    }
 }
 /* ---- End of min-width 480px and max-width 768px CSS ---- */
 
@@ -197,6 +208,9 @@
     .mb-40 {
     margin-bottom: 0px;
     }
+    .xs-hide{
+        display: none;
+    }
 }
 /* ---- End of max-width 767px CSS ---- */
 
@@ -215,6 +229,10 @@
     .testimonial_item p { font-size: 16px; }
     .testimonial_item p br { display: none; }
     .subscribe_form { width: 98%; }
+
+    .btn-adjust{
+         margin-top:0px;
+    }
 
 }
 /* ---- End of max-width 520px CSS ---- */
@@ -242,3 +260,4 @@
     .doc_mockup .doc_mockup_2{ left: 70px; }
 }
 /* ---- End of max-width 380px CSS ---- */
+
