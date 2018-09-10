@@ -51,6 +51,7 @@
     .xs-textright{
         text-align: right;
     }
+    
 }
 /* ---- End of max-width 992px CSS ---- */
 
@@ -261,3 +262,9 @@
 }
 /* ---- End of max-width 380px CSS ---- */
 
+
+@media  (min-width: 992px) and (max-width: 1200px) {
+blockquote.text-adjust{
+    padding-top:10px!important;
+    }
+}    
