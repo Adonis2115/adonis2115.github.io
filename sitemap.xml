@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.celticlab.com/</loc>
+    <lastmod>2019-03-04</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.celticlab.com/cryptocurrency.html</loc>
+    <lastmod>2018-09-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.celticlab.com/blockchain.html</loc>
+    <lastmod>2018-09-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.celticlab.com/solutions.html</loc>
+    <lastmod>2018-09-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.celticlab.com/ico.html</loc>
+    <lastmod>2018-09-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://www.celticlab.com/index.html</loc>
+    <lastmod>2019-03-04</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.1</priority>
+  </url>
+</urlset>
+<!--<guid value="875f7a76-e94b-49b8-91b6-808461e6a5f1" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
